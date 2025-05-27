@@ -43,7 +43,7 @@ criarFundo( );
 function criarCobrinha( ){
     for (i=0; i < snake.length; i++){
         contexto.fillStyle = "blue";
-        contexto.fillRect(snake[i].x, snake[i].y,caixa, caixa)
+        contexto.fillRect(snake[i].x, snake[i].y,caixa, caixa) 
         //contexto.fillrect() = desenha um retangulo prenchido no canvas
         //contexto.fillrect(coordenada x, coordenada y, largura, altura)
     }
